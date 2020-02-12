@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		B12AB75223F13826004EB370 /* MyCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B12AB75023F13826004EB370 /* MyCars.xcdatamodeld */; };
 		B12AB75423F13829004EB370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12AB75323F13829004EB370 /* Assets.xcassets */; };
 		B12AB75723F13829004EB370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12AB75523F13829004EB370 /* LaunchScreen.storyboard */; };
+		B12AB76723F15147004EB370 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = B12AB76623F15147004EB370 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		B12AB75323F13829004EB370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12AB75623F13829004EB370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12AB75823F13829004EB370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12AB76623F15147004EB370 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		B19E571B23F297D600089DA3 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B19E571C23F297D600089DA3 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,10 @@
 				B12AB74D23F13826004EB370 /* Main.storyboard */,
 				B12AB75323F13829004EB370 /* Assets.xcassets */,
 				B12AB75523F13829004EB370 /* LaunchScreen.storyboard */,
+				B19E571B23F297D600089DA3 /* Car+CoreDataClass.swift */,
+				B19E571C23F297D600089DA3 /* Car+CoreDataProperties.swift */,
 				B12AB75823F13829004EB370 /* Info.plist */,
+				B12AB76623F15147004EB370 /* data.plist */,
 				B12AB75023F13826004EB370 /* MyCars.xcdatamodeld */,
 			);
 			path = MyCars;
@@ -106,7 +113,7 @@
 				};
 			};
 			buildConfigurationList = B12AB73F23F13826004EB370 /* Build configuration list for PBXProject "MyCars" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -130,6 +137,7 @@
 			files = (
 				B12AB75723F13829004EB370 /* LaunchScreen.storyboard in Resources */,
 				B12AB75423F13829004EB370 /* Assets.xcassets in Resources */,
+				B12AB76723F15147004EB370 /* data.plist in Resources */,
 				B12AB74F23F13826004EB370 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
